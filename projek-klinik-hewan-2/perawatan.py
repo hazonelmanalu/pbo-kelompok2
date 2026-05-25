@@ -60,6 +60,7 @@ class Perawatan_Lain(Perawatan):
             try:
                 self.input_perawatan_spesifik = str(input("Silahkan masukkan input perawatan"))
                 self.biaya_perawatan_spesifik = int(input("Silahkan masukkan harga perawatan \n > Rp."))
+                break
             except ValueError:
                 print("Harap masukkan 'input perawatan' dalam 'huruf' dan 'harga perawatan' dalam 'angka'!")
 
