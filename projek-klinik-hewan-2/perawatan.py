@@ -32,7 +32,6 @@ class Perawatan_Umum(Perawatan):
                          penanggung_jawab_hewan, ruang_rawat, 
                          biaya_perawatan)
         
-        self.database_perawatan_umum = {}
 
 class Perawatan_Khusus(Perawatan):
 
